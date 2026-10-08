@@ -1,0 +1,476 @@
+{
+    "departments": [
+        {
+            "id": "treasury",
+            "name": "Treasury Department",
+            "shortName": "Treasury",
+            "icon": "💰",
+            "subDepartments": [
+                {
+                    "id": "treasury-0",
+                    "name": "Treasury Division",
+                    "employees": [
+                        {
+                            "fullName": "Maxim Alexandrovich Vasiliev",
+                            "lastName": "Vasiliev",
+                            "firstName": "Maxim",
+                            "middleName": "Alexandrovich",
+                            "department": "Treasury Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Ekaterina Nikolaevna Stepanova",
+                            "lastName": "Stepanova",
+                            "firstName": "Ekaterina",
+                            "middleName": "Nikolaevna",
+                            "department": "Treasury Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Elena Pavlovna Morozova",
+                            "lastName": "Morozova",
+                            "firstName": "Elena",
+                            "middleName": "Pavlovna",
+                            "department": "Treasury Division",
+                            "count": 1
+                        }
+                    ],
+                    "count": 3,
+                    "leadership": [
+                        {
+                            "fullName": "Polina Nikolaevna Lebedeva",
+                            "position": "Head",
+                            "subordinates": [
+                                {
+                                    "fullName": "Maxim Alexandrovich Vasiliev",
+                                    "lastName": "Vasiliev",
+                                    "firstName": "Maxim",
+                                    "middleName": "Alexandrovich",
+                                    "department": "Treasury Division",
+                                    "count": 4
+                                },
+                                {
+                                    "fullName": "Ekaterina Nikolaevna Stepanova",
+                                    "lastName": "Stepanova",
+                                    "firstName": "Ekaterina",
+                                    "middleName": "Nikolaevna",
+                                    "department": "Treasury Division",
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "treasury-1",
+                    "name": "Operational Payments Division",
+                    "employees": [
+                        {
+                            "fullName": "Polina Andreevna Kuznetsova",
+                            "lastName": "Kuznetsova",
+                            "firstName": "Polina",
+                            "middleName": "Andreevna",
+                            "department": "Operational Payments Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Viktoriya Ilyichna Egorova",
+                            "lastName": "Egorova",
+                            "firstName": "Viktoriya",
+                            "middleName": "Ilyichna",
+                            "department": "Operational Payments Division",
+                            "count": 1
+                        }
+                    ],
+                    "count": 2,
+                    "leadership": [
+                        {
+                            "fullName": "Dmitry Maksimovich Sokolov",
+                            "position": "Director",
+                            "subordinates": [
+                                {
+                                    "fullName": "Polina Andreevna Kuznetsova",
+                                    "lastName": "Kuznetsova",
+                                    "firstName": "Polina",
+                                    "middleName": "Andreevna",
+                                    "department": "Operational Payments Division",
+                                    "count": 2
+                                },
+                                {
+                                    "fullName": "Viktoriya Ilyichna Egorova",
+                                    "lastName": "Egorova",
+                                    "firstName": "Viktoriya",
+                                    "middleName": "Ilyichna",
+                                    "department": "Operational Payments Division",
+                                    "count": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "treasury-2",
+                    "name": "Treasury Operations Control Division",
+                    "employees": [
+                        {
+                            "fullName": "Kirill Romanovich Medvedev",
+                            "lastName": "Medvedev",
+                            "firstName": "Kirill",
+                            "middleName": "Romanovich",
+                            "department": "Treasury Operations Control Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Valentina Timurovna Semyonova",
+                            "lastName": "Semyonova",
+                            "firstName": "Valentina",
+                            "middleName": "Timurovna",
+                            "department": "Treasury Operations Control Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Svetlana Ivanovna Andreeva",
+                            "lastName": "Andreeva",
+                            "firstName": "Svetlana",
+                            "middleName": "Ivanovna",
+                            "department": "Treasury Operations Control Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Egor Danilovich Savelyev",
+                            "lastName": "Savelyev",
+                            "firstName": "Egor",
+                            "middleName": "Danilovich",
+                            "department": "Treasury Operations Control Division",
+                            "count": 1
+                        }
+                    ],
+                    "count": 4,
+                    "leadership": [
+                        {
+                            "fullName": "Darya Vladimirovna Romanova",
+                            "position": "Department Director",
+                            "subordinates": [
+                                {
+                                    "fullName": "Kirill Romanovich Medvedev",
+                                    "lastName": "Medvedev",
+                                    "firstName": "Kirill",
+                                    "middleName": "Romanovich",
+                                    "department": "Treasury Operations Control Division",
+                                    "count": 10
+                                },
+                                {
+                                    "fullName": "Valentina Timurovna Semyonova",
+                                    "lastName": "Semyonova",
+                                    "firstName": "Valentina",
+                                    "middleName": "Timurovna",
+                                    "department": "Treasury Operations Control Division",
+                                    "count": 10
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "treasury-3",
+                    "name": "Settlements Division",
+                    "employees": [
+                        {
+                            "fullName": "Ekaterina Artemovna Vasilieva",
+                            "lastName": "Vasilieva",
+                            "firstName": "Ekaterina",
+                            "middleName": "Artemovna",
+                            "department": "Settlements Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Aleksey Dmitrievich Ilyin",
+                            "lastName": "Ilyin",
+                            "firstName": "Aleksey",
+                            "middleName": "Dmitrievich",
+                            "department": "Settlements Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Alexander Andreevich Yakovlev",
+                            "lastName": "Yakovlev",
+                            "firstName": "Alexander",
+                            "middleName": "Andreevich",
+                            "department": "Settlements Division",
+                            "count": 1
+                        },
+                        {
+                            "fullName": "Sergey Nikitich Volkov",
+                            "lastName": "Volkov",
+                            "firstName": "Sergey",
+                            "middleName": "Nikitich",
+                            "department": "Settlements Division",
+                            "count": 1
+                        }
+                    ],
+                    "count": 4,
+                    "leadership": [
+                        {
+                            "fullName": "Nikolay Mikhailovich Vinogradov",
+                            "position": "Division Head",
+                            "subordinates": [
+                                {
+                                    "fullName": "Ekaterina Artemovna Vasilieva",
+                                    "lastName": "Vasilieva",
+                                    "firstName": "Ekaterina",
+                                    "middleName": "Artemovna",
+                                    "department": "Settlements Division",
+                                    "count": 8
+                                },
+                                {
+                                    "fullName": "Aleksey Dmitrievich Ilyin",
+                                    "lastName": "Ilyin",
+                                    "firstName": "Aleksey",
+                                    "middleName": "Dmitrievich",
+                                    "department": "Settlements Division",
+                                    "count": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "id": "TASK-001",
+            "startDate": "2026-09-12",
+            "initiator": "Maxim A. Vasiliev",
+            "initiatorDept": "Treasury Division",
+            "deadline": "2026-09-19",
+            "executor": "Ekaterina N. Stepanova",
+            "executorDept": "Treasury Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Head",
+            "curator": "Polina N. Lebedeva",
+            "dept": "Treasury",
+            "topic": "Analysis of Treasury Plan Execution (Monthly Snapshot)",
+            "description": "Collect actual indicators for limit and cash plan execution for August and the first 10 days of September. Build a variance table by budget items and cost centers (CC). Prepare a short slide deck (3–4 key points) for the weekly meeting.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-001"
+        },
+        {
+            "id": "TASK-002",
+            "startDate": "2026-09-13",
+            "initiator": "Polina N. Lebedeva",
+            "initiatorDept": "Treasury Division",
+            "deadline": "2026-09-20",
+            "executor": "Maxim A. Vasiliev",
+            "executorDept": "Treasury Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Head",
+            "curator": "Polina N. Lebedeva",
+            "dept": "Treasury",
+            "topic": "Cash Plan Formation for October 2026",
+            "description": "Prepare a draft cash plan for October: collect requests from cost centers, align limits, verify account balances. Export deliverables in Excel and JSON format for integration with the accounting system.",
+            "priority": "High",
+            "status": "Draft",
+            "link": "#task-002"
+        },
+        {
+            "id": "TASK-003",
+            "startDate": "2026-09-14",
+            "initiator": "Polina N. Lebedeva",
+            "initiatorDept": "Treasury Division",
+            "deadline": "2026-09-21",
+            "executor": "Elena P. Morozova",
+            "executorDept": "Treasury Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Head",
+            "curator": "Polina N. Lebedeva",
+            "dept": "Treasury",
+            "topic": "Reconciliation of Treasury Account Balances",
+            "description": "Perform reconciliation of balances across all treasury accounts as of 2026-09-14. Generate a reconciliation report, identify discrepancies against bank statements. If mismatches are found, prepare a discrepancy protocol with root causes.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-003"
+        },
+        {
+            "id": "TASK-004",
+            "startDate": "2026-09-13",
+            "initiator": "Dmitry M. Sokolov",
+            "initiatorDept": "Operational Payments Division",
+            "deadline": "2026-09-20",
+            "executor": "Polina A. Kuznetsova",
+            "executorDept": "Operational Payments Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Director",
+            "curator": "Dmitry M. Sokolov",
+            "dept": "Treasury",
+            "topic": "Weekly Payment Register Reconciliation",
+            "description": "Reconcile outgoing payment registers with bank statements by status: executed, rejected, pending. Generate a report on incomplete payments and root causes for delays. Include a summary table with counts per status and average processing time.",
+            "priority": "High",
+            "status": "Draft",
+            "link": "#task-004"
+        },
+        {
+            "id": "TASK-005",
+            "startDate": "2026-09-15",
+            "initiator": "Dmitry M. Sokolov",
+            "initiatorDept": "Operational Payments Division",
+            "deadline": "2026-09-22",
+            "executor": "Viktoriya I. Egorova",
+            "executorDept": "Operational Payments Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Director",
+            "curator": "Dmitry M. Sokolov",
+            "dept": "Treasury",
+            "topic": "Payment Exception Handling and Rule Update Proposal",
+            "description": "Analyze rejected/pending payments from the last 7 days. Categorize by reason (insufficient funds, invalid details, compliance hold). Draft a short proposal with 3–5 rule updates to reduce exceptions. Attach anonymized examples (IDs only, no personal data).",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-005"
+        },
+        {
+            "id": "TASK-006",
+            "startDate": "2026-09-14",
+            "initiator": "Darya V. Romanova",
+            "initiatorDept": "Treasury Operations Control Division",
+            "deadline": "2026-09-23",
+            "executor": "Kirill R. Medvedev",
+            "executorDept": "Treasury Operations Control Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Department Director",
+            "curator": "Darya V. Romanova",
+            "dept": "Treasury",
+            "topic": "Automated Reconciliation & Validation Report",
+            "description": "Set up automated extraction of treasury operations into JSON/CSV using provided API template. Run validation rules (currency, limits, cost center, GL codes). For errors, generate a sample report with screenshots. Produce a log file: {\"total\": X, \"errors\": Y, \"rules\": {...}}. Include a brief summary of root causes.",
+            "priority": "High",
+            "status": "Draft",
+            "link": "#task-006"
+        },
+        {
+            "id": "TASK-007",
+            "startDate": "2026-09-16",
+            "initiator": "Darya V. Romanova",
+            "initiatorDept": "Treasury Operations Control Division",
+            "deadline": "2026-09-25",
+            "executor": "Valentina T. Semyonova",
+            "executorDept": "Treasury Operations Control Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Department Director",
+            "curator": "Darya V. Romanova",
+            "dept": "Treasury",
+            "topic": "Compliance Check for High‑Value Transactions",
+            "description": "Review high‑value transactions (>50M RUB) from the last month against internal compliance rules. Flag any missing approvals or documentation gaps. Prepare a risk summary (low/medium/high) with recommendations. Output format: bullet list + 1‑page executive summary.",
+            "priority": "High",
+            "status": "Draft",
+            "link": "#task-007"
+        },
+        {
+            "id": "TASK-008",
+            "startDate": "2026-09-17",
+            "initiator": "Darya V. Romanova",
+            "initiatorDept": "Treasury Operations Control Division",
+            "deadline": "2026-09-26",
+            "executor": "Svetlana I. Andreeva",
+            "executorDept": "Treasury Operations Control Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Department Director",
+            "curator": "Darya V. Romanova",
+            "dept": "Treasury",
+            "topic": "Liquidity Gap Analysis and Forecast Adjustment",
+            "description": "Run a liquidity gap analysis for the next 30 days using current cash flow projections. Identify potential shortfalls and suggest mitigation actions (e.g., delay non‑critical payments, accelerate collections). Provide a simple waterfall chart description (text only) and a 3‑scenario summary: base, optimistic, pessimistic.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-008"
+        },
+        {
+            "id": "TASK-009",
+            "startDate": "2026-09-18",
+            "initiator": "Darya V. Romanova",
+            "initiatorDept": "Treasury Operations Control Division",
+            "deadline": "2026-09-27",
+            "executor": "Egor D. Savelyev",
+            "executorDept": "Treasury Operations Control Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Department Director",
+            "curator": "Darya V. Romanova",
+            "dept": "Treasury",
+            "topic": "FX Exposure Monitoring and Hedge Recommendation",
+            "description": "Calculate FX exposure for open positions in USD/EUR as of 2026-09-18. Identify top 3 riskiest positions by value and delta. Draft 2–3 hedging recommendations (forward, option, natural hedge) with pros/cons in bullet points. No trades—only recommendations.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-009"
+        },
+        {
+            "id": "TASK-010",
+            "startDate": "2026-09-15",
+            "initiator": "Nikolay M. Vinogradov",
+            "initiatorDept": "Settlements Division",
+            "deadline": "2026-09-22",
+            "executor": "Ekaterina A. Vasilieva",
+            "executorDept": "Settlements Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Division Head",
+            "curator": "Nikolay M. Vinogradov",
+            "dept": "Treasury",
+            "topic": "Intercompany Settlement Reconciliation",
+            "description": "Reconcile intercompany settlements across 3 subsidiaries. Identify outstanding balances and missing documents. Prepare a summary table (entity, amount, status, next step) and a short action plan for closing gaps within 5 business days.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-010"
+        },
+        {
+            "id": "TASK-011",
+            "startDate": "2026-09-16",
+            "initiator": "Nikolay M. Vinogradov",
+            "initiatorDept": "Settlements Division",
+            "deadline": "2026-09-23",
+            "executor": "Aleksey D. Ilyin",
+            "executorDept": "Settlements Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Division Head",
+            "curator": "Nikolay M. Vinogradov",
+            "dept": "Treasury",
+            "topic": "Aged Receivables Review and Collection Plan",
+            "description": "Analyze aged receivables (>30 days) by customer and reason. Identify top 5 delinquent customers by amount. Draft a collection plan with 3 priority actions per customer (call, letter, escalation). Include expected recovery timeline in weeks.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-011"
+        },
+        {
+            "id": "TASK-012",
+            "startDate": "2026-09-17",
+            "initiator": "Nikolay M. Vinogradov",
+            "initiatorDept": "Settlements Division",
+            "deadline": "2026-09-24",
+            "executor": "Alexander A. Yakovlev",
+            "executorDept": "Settlements Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Division Head",
+            "curator": "Nikolay M. Vinogradov",
+            "dept": "Treasury",
+            "topic": "Invoice Matching and Discrepancy Resolution",
+            "description": "Match incoming invoices against purchase orders and delivery notes. Flag discrepancies (quantity, price, tax). For each, note the root cause and resolution status. Produce a short list of unresolved items with estimated resolution date.",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-012"
+        },
+        {
+            "id": "TASK-013",
+            "startDate": "2026-09-18",
+            "initiator": "Nikolay M. Vinogradov",
+            "initiatorDept": "Settlements Division",
+            "deadline": "2026-09-25",
+            "executor": "Sergey N. Volkov",
+            "executorDept": "Settlements Division",
+            "supervisingDept": "Treasury Department",
+            "curatorPosition": "Division Head",
+            "curator": "Nikolay M. Vinogradov",
+            "dept": "Treasury",
+            "topic": "Bank Statement Reconciliation Automation Pilot",
+            "description": "Pilot an automated bank statement reconciliation script (Python/SQL) on a sample of 500 transactions. Compare results with manual reconciliation. Document accuracy rate, false positives/negatives, and required rule adjustments. Output: 1‑page summary + sample log file (anonymized).",
+            "priority": "Medium",
+            "status": "Draft",
+            "link": "#task-013"
+        }
+    ]
+}

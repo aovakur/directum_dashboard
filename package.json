@@ -1,0 +1,21 @@
+{
+  "name": "overdue-tasks-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dashboard for monitoring overdue tasks from Directum and other integrated systems",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^7.1.9"
+  }
+}

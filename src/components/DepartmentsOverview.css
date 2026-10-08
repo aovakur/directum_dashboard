@@ -1,0 +1,322 @@
+/* ===== SUMMARY ITEMS CLICKABLE ===== */
+.summary-item.clickable {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.summary-item.clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 65, 108, 0.15);
+  border-color: rgba(255, 65, 108, 0.3);
+}
+
+/* ===== MODAL OVERLAY ===== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 4vh;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+  animation: modalFadeIn 0.25s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.modal {
+  background: linear-gradient(135deg, #1e1a4a 0%, #1a1640 100%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 2rem;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  animation: modalSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+@keyframes modalSlideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.modal-medium {
+  width: 90%;
+  max-width: 600px;
+}
+
+.modal-large {
+  width: 95%;
+  max-width: 900px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
+
+.modal-header h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(135deg, #ffffff 0%, #c0c0c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.modal-subtitle {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.3rem;
+}
+
+.modal-close {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.modal-close:hover {
+  background: rgba(255, 65, 108, 0.3);
+}
+
+.modal-table-wrapper {
+  overflow-y: auto;
+  flex: 1;
+  margin: 0 -2rem;
+  padding: 0 2rem;
+}
+
+.modal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.modal-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.modal-table thead th {
+  background: #2a2460;
+  color: #ccc;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  white-space: nowrap;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.modal-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.15s;
+}
+
+.modal-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.modal-table tbody td {
+  padding: 0.65rem 1rem;
+  color: #d0d0d0;
+  vertical-align: middle;
+}
+
+.modal-row-num {
+  text-align: center;
+  font-weight: 600;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.modal-emp-name {
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+.emp-badge-count {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.emp-badge-count.low { background: #00c9a7; }
+.emp-badge-count.medium { background: #f7971e; }
+.emp-badge-count.high { background: #ff416c; }
+.emp-badge-count.critical { background: #ff0040; box-shadow: 0 0 8px rgba(255, 0, 64, 0.4); }
+
+/* ===== TOP EMPLOYEE LIST ===== */
+.top-employee-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.top-emp-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+
+.top-emp-row:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.top-emp-first {
+  background: rgba(255, 65, 108, 0.1);
+  border-color: rgba(255, 65, 108, 0.25);
+}
+
+.top-emp-rank {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #888;
+  flex-shrink: 0;
+}
+
+.top-emp-first .top-emp-rank {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.top-emp-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.top-emp-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-emp-dept {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-emp-count {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ff416c;
+  flex-shrink: 0;
+}
+
+/* ===== TOP DEPARTMENT LIST ===== */
+.top-dept-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.top-dept-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+
+.top-dept-row:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.top-dept-first {
+  background: rgba(102, 126, 234, 0.12);
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.top-dept-rank {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #888;
+  flex-shrink: 0;
+}
+
+.top-dept-first .top-dept-rank {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+.top-dept-info {
+  flex: 1;
+}
+
+.top-dept-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.top-dept-sub {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 0.15rem;
+}
+
+.top-dept-count {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #667eea;
+  flex-shrink: 0;
+}
